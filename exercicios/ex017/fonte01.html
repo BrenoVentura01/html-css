@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc -- Recomendado usar px
+
+            Medidas Relativas
+            em, ex, rem, VW, vh, % -- Recomendado usar em
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: lighter;
+            /* lighter normal bold bolder */
+            font-style: italic; /*tag utilizada para definir estilo da fonte */
+            text-decoration: underline; /*tag para deixar texto sublinhado*/
+           
+            /* weight(peso) width(largura) heigth(altura)*/
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family 
+
+            font-family: 'Work Sans', 'sans-serif';
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', 'sans serif';
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat voluptatum nesciunt, fugiat commodi, exercitationem libero placeat quisquam inventore sunt maxime enim repellat quo, incidunt atque tenetur quasi assumenda cupiditate magnam?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias modi, amet sequi ipsa odit aspernatur corporis magni molestias necessitatibus nemo neque rem, nisi eaque repudiandae ullam perspiciatis minus natus voluptates.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa itaque accusamus dolor molestiae, ea corporis voluptates quasi, inventore velit, eos dolorum consequatur magnam ad vero doloremque? Culpa, at pariatur? Maxime.</p>
+</body>
+</html>
