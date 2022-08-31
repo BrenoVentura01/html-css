@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aspernatur, iste sed impedit deserunt, asperiores incidunt quidem recusandae, ducimus neque distinctio provident! Nobis iure distinctio nulla laborum quod labore iste! lorem</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="iframe">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="iframe">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="iframe">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod iste at nihil similique vel inventore aut veritatis ipsa, maiores aspernatur quo ad exercitationem id quas ipsum nulla amet. Ipsa, maxime! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa molestias odit expedita, iure consectetur corrupti rem pariatur eligendi qui minus quos earum optio reprehenderit animi dicta deserunt? Sunt, dolorem deleniti!</p>
+
+    <iframe id="tela" name="iframe" srcdoc="<h1> Escolha uma das opções acima</h1><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod iste at nihil similique vel inventore aut veritatis ipsa, maiores aspernatur quo ad exercitationem id quas ipsum nulla amet.</p>" >
+        <p>Infelizmente seu navegador não é compatível com isso!</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sunt reiciendis quos animi possimus, corrupti veritatis blanditiis soluta natus vitae modi minus nam voluptate fuga. Vero nulla tempore ipsum quasi!</p>
+</body>
+</html>
