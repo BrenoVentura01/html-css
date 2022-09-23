@@ -1,7 +1,7 @@
 # html-css
  Curso de HTML5 e CSS3
 
-Repositório com projetos criados.
+Repositório com projetos criados através do CursoEmVideo.
 
 <a href="https://brenoventura01.github.io/html-css/exercicios/ex001/index.html" target="blank">Executar o exercício 001.
 
